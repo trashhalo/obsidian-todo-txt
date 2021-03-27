@@ -1,19 +1,15 @@
 {
-  "name": "obsidian-extract-url",
+  "name": "obsidian-todo-txt",
   "version": "0.1.0",
   "description": "Extract url converting content into markdown",
   "main": "main.js",
   "scripts": {
-    "build": "microbundle build --target node -f cjs -o main.js --alias readable-stream=stream index.js"
+    "build": "microbundle build --target node -f cjs -o main.js index.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@trashhalo/cheerio": "1.0.0-rc.5",
-    "microbundle": "^0.13.0",
-    "node-fetch": "^2.6.1",
-    "node-html-markdown": "^0.1.5",
-    "underscore": "^1.6.0"
+    "microbundle": "^0.13.0"
   }
 }
