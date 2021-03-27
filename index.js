@@ -122,7 +122,6 @@ export default class TodoTxtPlugin extends Plugin {
 			start: [{ regex: /[0-9]{4}-[0-9]{2}-[0-9]{2}/, token: "number" },
 			{ regex: /\@\w+/, token: "keyword" },
 			{ regex: /\+\w+/, token: "tag" },
-			{ regex: /^x\s.---/, token: "comment" },
 			{ regex: /\([A-Z]\)/, token: "def" }]
 		});
 		this.registerView(VIEW_TYPE_TODOTXT_SOURCE, (leaf) => {
