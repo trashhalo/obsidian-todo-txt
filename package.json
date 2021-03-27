@@ -7,7 +7,6 @@
     "build": "microbundle build --target node -f cjs -o main.js index.js"
   },
   "keywords": [],
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.13.0"

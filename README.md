@@ -1,8 +1,9 @@
 # Obsidian Plugin: Support for todo.txt files
 
+Edit [todo.txt](https://github.com/todotxt/todo.txt) files in Obsidian.
+
 ![Demo](images/demo-todo-txt.png)
 
-Edit [todo.txt](https://github.com/todotxt/todo.txt) files in Obsidian.
 
 # Installation
 Support for 3rd party plugins is enabled in settings (Obsidian > Settings > Third Party plugin > Safe mode - OFF)
