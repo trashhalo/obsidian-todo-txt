@@ -1,14 +1,14 @@
-# Obsidian Plugin: Convert a URL into markdown
-**Transform a URL into extracted markdown content.**
+# Obsidian Plugin: Support for todo.txt files
 
-![Demo](images/demo-extract-url.gif)
+![Demo](images/demo-todo-txt.png)
 
-Transform a selected URL to markdown view if the website allows it.
+Edit [todo.txt](https://github.com/todotxt/todo.txt) files in Obsidian.
 
 # Installation
 Support for 3rd party plugins is enabled in settings (Obsidian > Settings > Third Party plugin > Safe mode - OFF)
 To install this plugin, download zip archive from GitHub releases page. Extract the archive into <vault>/.obsidian/plugins.
 
-# Commands
-- __Extract__: Replace url with readable markdown extracted from the sites html content
-- __Title Only__: Replace url with a markdown anchor with the title extracted from the page content
+# Features
+- @context is treated as `#tags`
+- +Project are treated at `[[Project]]`. You can ctrl click them.
+- `_` in +Projects to represent spaces. Ex `+Hello_World`
