@@ -4,7 +4,7 @@ import simple from './simple';
 export const VIEW_TYPE_TODOTXT_SOURCE = 'trashhalo.obsidian-plugin-todotxt-source';
 
 const replaceUnderscore = (text) => {
-	return text.replace(/_/g, " ");
+	return text.replace(/[_-]/g, " ");
 }
 
 class TodoTxtView extends TextFileView {
@@ -94,7 +94,7 @@ class TodoTxtView extends TextFileView {
 					text: `#${token.string.substring(1)}`
 				};
 			} else if (token.string.startsWith("+")) {
-				const link = toSentenceCase(token.string.substring(1));
+				const link = replaceUnderscore(token.string.substring(1));
 				console.log(link);
 				return {
 					type: "internal-link",
